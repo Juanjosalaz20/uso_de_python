@@ -7,3 +7,4 @@ realice las operaciones de suma, resta, multiplicación, división y módulo.
 '''
 
 print("hola")
+print("hola")
