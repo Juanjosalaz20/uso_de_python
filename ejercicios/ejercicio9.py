@@ -8,10 +8,7 @@ Calificaciones = {'Pepe': {'Matematicas': 4.1, 'Ciencia': 4.5, 'Quimica': 3.8},
 
 Name = input('Ingrese el nombre del estudiante: ').title()
 
-Cal_estudiante = Calificaciones.get(Name)
+print(Calificaciones.get(Name, 'El estudiante no se encuentra en la lista'))
 
-if Cal_estudiante:
-    print(Cal_estudiante)
-else:
-    print('El estudiante no se encuentra en la lista')
+
 
