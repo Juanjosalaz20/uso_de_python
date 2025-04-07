@@ -35,6 +35,5 @@ if score_p1 == 2:
     print('-'*30)
     print(f'El ganador es {Name_p1}')
 else:
-    
     print(f'El ganador es {Name_p2}')
     
