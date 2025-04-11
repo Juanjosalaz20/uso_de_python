@@ -1,0 +1,13 @@
+def Num_pares (limit):
+    for num in range(0, limit+1, 2):
+        yield num
+
+for par in Num_pares (50):
+   print(par)
+
+def Num_impares (limit):
+    for numi in range(1, limit+1, 2):
+        yield numi
+
+for impar in Num_impares (20):
+    print(impar)
